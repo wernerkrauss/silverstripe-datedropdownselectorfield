@@ -55,9 +55,9 @@ class DateSelectorField extends CompositeField {
 		}
 
 		if($title) {
-			array_unshift($fields, $header = new HeaderField($this->name.'['. $this->modifier .'Title]', $title . ' ' . $this->modifier, 4));
-
-			$header->setAllowHTML(true);
+//			array_unshift($fields, $header = new HeaderField($this->name.'['. $this->modifier .'Title]', $title . ' ' . $this->modifier, 4));
+//
+//			$header->setAllowHTML(true);
 		}
 	
 		parent::__construct($fields);
