@@ -13,31 +13,31 @@ class DateSelectorField extends CompositeField {
 		$this->setTitle($title);
 		$this->modifier = $modifier;
 		$dayArray = array(
-			0 => 'Day'
+			0 => _t('DateSelectorField.DAY','Day')
 		);
 		for($i = 1; $i < 32; $i++) {
 			$dayArray[$i] = $i;
 		}
 		$monthArray = array(
-			0 => 'Month',
-			1 => 'Jan',
-			2 => 'Feb',
-			3 => 'March',
-			4 => 'Apr',
-			5 => 'May',
-			6 => 'June',
-			7 => 'July',
-			8 => 'Aug',
-			9 => 'Sept',
-			10 => 'Oct',
-			11 => 'Nov',
-			12 => 'Dec'
+			0 => _t('DateSelectorField.MONTH','Month'),
+			1 => _t('DateSelectorField.JAN','Jan'),
+			2 => _t('DateSelectorField.FEB','Feb'),
+			3 => _t('DateSelectorField.MARCH','March'),
+			4 => _t('DateSelectorField.APR','Apr'),
+			5 => _t('DateSelectorField.MAY','May'),
+			6 => _t('DateSelectorField.JUNE','June'),
+			7 => _t('DateSelectorField.JULY','July'),
+			8 => _t('DateSelectorField.AUG','Aug'),
+			9 => _t('DateSelectorField.SEPT','Sept'),
+			10 => _t('DateSelectorField.OCT','Oct'),
+			11 => _t('DateSelectorField.NOV','Nov'),
+			12 => _t('DateSelectorField.DEC','Dec')
 		);
 		$now = new DateTime();
 		$startYear = $now->format('Y');
 		$endYear = $startYear - 105;
 		$yearArray = array(
-			0 => 'Year'
+			0 =>  _t('DateSelectorField.YEAR','Year')
 		);
 		
 		for($i = $startYear; $i >= $endYear; $i--) {

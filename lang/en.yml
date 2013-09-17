@@ -1,0 +1,18 @@
+en:
+  DateSelectorField:
+    DAY: 'Day'
+    MONTH: 'Month'
+    YEAR: 'Year'
+    JAN: 'Jan'
+    FEB: 'Feb'
+    MARCH: 'March'
+    APR: 'Apr'
+    MAY: 'May'
+    JUNE: 'June'
+    JULY: 'July'
+    AUG: 'Aug'
+    SEPT: 'Sept'
+    OCT: 'Oct'
+    NOV: 'Nov'
+    DEC: 'Dec'
+
